@@ -1,0 +1,38 @@
+Zadanie 1
+ćw 1
+lo: 00:00:00:00:00:00
+eth0@if652: 76:f7:a9:f6:dd:88
+
+ćw 2
+ip address: 10.71.1.222
+ip ze strony: 150.254.76.83
+
+Adres ip uzyskany przy użyciu ip address różni się od adresu uzyskanego ze strony.
+Nie zawsze beda one od siebie r�zne. W tym przypadku jeden z nich jest wewnetrzny, a drugi zewnetrzny.
+
+
+Zadanie 2
+
+google.com - 172.217.20.174
+amu.edu.pl - 150.254.65.253
+emi.amu.edu.pl - 150.254.78.3
+
+
+Zadanie 3 
+traceroute to nyu.edu (216.165.47.10)
+ 1  gw-v571.core.wmi.amu.edu.pl (10.71.0.1)  0.838 ms  1.078 ms  0.569 ms
+ 2  fw.core.wmi.amu.edu.pl (150.254.76.33)  0.212 ms  0.339 ms  0.219 ms
+ 3  amur.amu.edu.pl (150.254.115.57)  4.493 ms  4.765 ms  5.024 ms
+ 4  do-pozman.amu.edu.pl (150.254.116.6)  5.543 ms  5.601 ms  5.840 ms
+ 5  pozmangw.amu.edu.pl (150.254.115.5)  6.129 ms  6.168 ms  6.205 ms
+ 6  z-pozmana.poznan-gw3.10Gb.rtr.pionier.gov.pl (212.191.224.17)  6.294 ms  6.264 ms  6.227 ms
+ 7  pionier.mx1.poz.pl.geant.net (62.40.125.245)  7.216 ms  7.023 ms  6.487 ms
+ 8  ae3.mx1.fra.de.geant.net (62.40.98.130)  19.620 ms  20.371 ms  20.449 ms
+ 9  ae1.mx1.ams.nl.geant.net (62.40.98.129)  26.923 ms  27.080 ms  27.055 ms
+10  internet2-gw.mx1.ams.nl.geant.net (62.40.124.47)  112.344 ms  112.044 ms  112.077 ms
+11  nyc-9208-I2-NEWY.nysernet.net (199.109.5.1)  112.112 ms  112.323 ms  112.306 ms
+12  199.109.5.6 (199.109.5.6)  112.672 ms  112.149 ms  112.279 ms
+13  DMZGWB-PTP-EXTGWA.NET.NYU.EDU (128.122.254.67)  112.522 ms  110.699 ms  112.485 ms
+14  NYUGWA-PTP-DMZGWB-VL3082.NET.NYU.EDU (128.122.254.110)  111.611 ms  113.295 ms  112.981 ms
+15  NYUFW-OUTSIDE-NGFW-VL3080.NET.NYU.EDU (128.122.254.116)  113.459 ms  114.116 ms  114.031 ms
+16  WSQDCGWA-VL902.NET.NYU.EDU (128.122.1.38)  114.771 ms  114.485 ms  114.739 ms
